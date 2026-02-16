@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.14.36930.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOpsMetaProjectTest", "AzureDevOpsMetaProjectTest\AzureDevOpsMetaProjectTest.csproj", "{72B1D34D-DCDB-4BAB-98A4-CA54862A45F5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{13BA6B67-CF99-4DDA-B1A9-5ACD946344CA} = {13BA6B67-CF99-4DDA-B1A9-5ACD946344CA}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{13BA6B67-CF99-4DDA-B1A9-5ACD946344CA}"
 EndProject
