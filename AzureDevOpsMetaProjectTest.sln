@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36930.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOpsMetaProjectTest", "AzureDevOpsMetaProjectTest\AzureDevOpsMetaProjectTest.csproj", "{72B1D34D-DCDB-4BAB-98A4-CA54862A45F5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{13BA6B67-CF99-4DDA-B1A9-5ACD946344CA} = {13BA6B67-CF99-4DDA-B1A9-5ACD946344CA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{13BA6B67-CF99-4DDA-B1A9-5ACD946344CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72B1D34D-DCDB-4BAB-98A4-CA54862A45F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B1D34D-DCDB-4BAB-98A4-CA54862A45F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B1D34D-DCDB-4BAB-98A4-CA54862A45F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B1D34D-DCDB-4BAB-98A4-CA54862A45F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13BA6B67-CF99-4DDA-B1A9-5ACD946344CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13BA6B67-CF99-4DDA-B1A9-5ACD946344CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13BA6B67-CF99-4DDA-B1A9-5ACD946344CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13BA6B67-CF99-4DDA-B1A9-5ACD946344CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1726D19-BFDE-42ED-962F-02FAAAA69C73}
+	EndGlobalSection
+EndGlobal
